@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="A modern interactive portfolio with interconnected nodes background.">
+  <title>Futuristic Portfolio</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Interconnected nodes background -->
+  <canvas id="nodeCanvas"></canvas>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="name">Jesse R. Parrott</h1>
+      <h2 class="role">Senior Network Engineer</h2>
+      <p class="intro">
+        I am an experienced Network Engineer specialized in Cisco Architecture.
+      </p>
+      <div class="links">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="https://github.com/JesseParrott" target="https://github.com/JesseParrott" class="btn secondary">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects" class="section">
+      <h3>Selected Projects</h3>
+      <div class="project-list">
+        <article class="project">
+          <h4>netops-ci-cd-evpn-fabric</h4>
+          <p>Automated approach to configuring a Cisco Nexus EVPN/VXLAN fabric using Infrastructure-as-Code principles.</p>
+        </article>
+        <article class="project">
+          <h4>firewall-backup-audit</h4>
+          <p>Connect to a Cisco ASA firewall, back up its running configuration, and perform a simple audit on the number of ACL entries.</p>
+        </article>
+        <article class="project">
+          <h4>iwan-lab-setup</h4>
+          <p>Ansible playbook that sets up a DMVPN hub configuration on an ISR router in a lab environment.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h3>Contact me</h3>
+      <p>
+        Interested in my skillset? Reach out:
+        <a href="mailto:jesse.r.parrott@outlook.com">jesse.r.parrott@outlook.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Jesse R. Parrott. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
